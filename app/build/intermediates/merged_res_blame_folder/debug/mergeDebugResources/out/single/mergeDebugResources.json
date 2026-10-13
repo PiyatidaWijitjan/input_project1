@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_item_product.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_product.xml"
+    },
+    {
+        "merged": "com.example.shopeeclone.app-debug-38:/layout_activity_rewards.xml.flat",
+        "source": "com.example.shopeeclone.app-main-40:/layout/activity_rewards.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_address_form.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_address_form.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_fragment_profile.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_item_saved_address.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_saved_address.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_register.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_item_settings_switch_row.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_settings_switch_row.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_fragment_home.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/drawable_bg_circle_avatar.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/drawable/bg_circle_avatar.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_address_book.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_address_book.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_item_profile_menu_row.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_profile_menu_row.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_fragment_settings.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_info.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/drawable_placeholder_product.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/drawable/placeholder_product.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_rewards.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_rewards.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_login.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_checkout.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_change_password.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_order_history.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_order_history.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_edit_profile.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/drawable_ic_heart_filled.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/drawable/ic_heart_filled.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_wishlist.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_wishlist.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_item_order.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_order.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_product_detail.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/menu_bottom_nav_menu.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/layout_activity_forgot_password.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-debug-38:/drawable_ic_heart_outline.xml.flat",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/drawable/ic_heart_outline.xml"
+    }
+]

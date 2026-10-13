@@ -1,0 +1,387 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.databinding:viewbinding:8.4.0] /Users/mone/.gradle/caches/9.3.0/transforms/0aeb99bec67fb82a4af2dabd141fa8e3/transformed/viewbinding-8.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.12.0] /Users/mone/.gradle/caches/9.3.0/transforms/98f5de3d31010ec64bf89bb5ed54204d/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mone/.gradle/caches/9.3.0/transforms/33e0a51e0829b4f27d15d6d8b706fb01/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/mone/.gradle/caches/9.3.0/transforms/37ae0b4ef93e179fd0b23c38656d9a71/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/mone/.gradle/caches/9.3.0/transforms/59fb2d26a0358529297f6ec8f99667b2/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/mone/.gradle/caches/9.3.0/transforms/51f40ccfbf63c5ea442a537b4af597ca/transformed/recyclerview-1.3.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/mone/.gradle/caches/9.3.0/transforms/ffecf509abd766ce1b4cdac72f31ca64/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/968fcb780a5c61607da0ec4450ef0a4c/transformed/fragment-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.fragment:fragment-ktx:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/5b14bcaf799dc18bfb94a0ceb95791ce/transformed/fragment-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/33ab8f6d55194ba127f6f6d0193a9b59/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/214847bb0d41e17402eb7900ffcaa0e8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/c283efe3283e68bad5fadb45697c1db0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /Users/mone/.gradle/caches/9.3.0/transforms/20945f8027ee753f0152bc8d4f89c33a/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/352ea827c93ebf6f126a8430f56d0611/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/ce66dcddc9b44cc86a506cb602e8c1fe/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/986c6262c23fa1a52e8be7f8136e67b9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/a2d70cef24b9fd5897e27bd67b1e84c6/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/a211d6866603776cc2937aaa6b9aeaec/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/e6d28a9408ea4930f25df06f7b431d3b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/4ed94de5f817144e7acdb1053247a725/transformed/activity-ktx-1.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/5146d29239101e46a362aa5e2c2e880f/transformed/activity-1.8.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/59e8ff0b393c22e498c75cb4dfff8745/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/bbf695248925c7072203d9dc7dc67d47/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/mone/.gradle/caches/9.3.0/transforms/33db32532ce6169e39467cb39436020a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mone/.gradle/caches/9.3.0/transforms/79be30eb7761f8246bbe1369803bd00a/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/22707c50f2a944aa38f6de74f2997af7/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/dbbeacf2dfb89d8c7b3af9a4546ff38b/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/7e93ae7776203857985b33b82d31f82a/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/569e1f9913a761b82af9a2f52fdb9e53/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/0eafe9f90d4fc9cec858fe7dced5669a/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/473791e53059f1835ba1d12ca8a70501/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/990bc47d5e6f0f9ee65c70613c75fc76/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/3ae1352dc1e62fe7f448be270fc21229/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a7ebcb64528aa72e61b4f3bbc37ea507/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/94606e6120ae305a2c04e922e40ebdc1/transformed/core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mone/.gradle/caches/9.3.0/transforms/b86df498249e795e37d3a8bfa8cc8e26/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/0caab161243c89917714ee43293d85dc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/7cb86d67741352beca47c501c0ae60ca/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/8d40475492ec889cb239530398437242/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/cc9242d52bb40c4f3945b3f5ef1f95bc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/fe9f78e4c07970d997fb56a021514736/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/53604d2ff8345a0a682d79d8cbb37003/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/5e11eca71e3024255df6741b4d1d04bd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/00886a589a657fbedc641231709910b4/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mone/.gradle/caches/9.3.0/transforms/cbae96ff2337b55e57cf73b58bdb2b5e/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:4:5-34:19
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:4:5-34:19
+MERGED from [com.google.android.material:material:1.12.0] /Users/mone/.gradle/caches/9.3.0/transforms/98f5de3d31010ec64bf89bb5ed54204d/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /Users/mone/.gradle/caches/9.3.0/transforms/98f5de3d31010ec64bf89bb5ed54204d/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mone/.gradle/caches/9.3.0/transforms/33e0a51e0829b4f27d15d6d8b706fb01/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mone/.gradle/caches/9.3.0/transforms/33e0a51e0829b4f27d15d6d8b706fb01/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/cc9242d52bb40c4f3945b3f5ef1f95bc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/cc9242d52bb40c4f3945b3f5ef1f95bc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:8:9-37
+	android:icon
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:7:9-58
+	android:allowBackup
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:9:9-49
+activity#com.example.shopeeclone.ui.auth.LoginActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:11:9-18:20
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:13:13-36
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:12:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:14:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.shopeeclone.ui.auth.RegisterActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:20:9-87
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:20:60-84
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:20:19-59
+activity#com.example.shopeeclone.ui.auth.ForgotPasswordActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:21:9-93
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:21:66-90
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:21:19-65
+activity#com.example.shopeeclone.MainActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:22:9-75
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:22:48-72
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:22:19-47
+activity#com.example.shopeeclone.ui.detail.ProductDetailActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:23:9-94
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:23:67-91
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:23:19-66
+activity#com.example.shopeeclone.ui.checkout.CheckoutActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:24:9-91
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:24:64-88
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:24:19-63
+activity#com.example.shopeeclone.ui.orders.OrderHistoryActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:25:9-93
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:25:66-90
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:25:19-65
+activity#com.example.shopeeclone.ui.profile.EditProfileActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:26:9-93
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:26:66-90
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:26:19-65
+activity#com.example.shopeeclone.ui.settings.ChangePasswordActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:27:9-97
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:27:70-94
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:27:19-69
+activity#com.example.shopeeclone.ui.wishlist.WishlistActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:28:9-91
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:28:64-88
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:28:19-63
+activity#com.example.shopeeclone.ui.address.AddressBookActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:29:9-93
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:29:66-90
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:29:19-65
+activity#com.example.shopeeclone.ui.address.AddressFormActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:30:9-93
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:30:66-90
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:30:19-65
+activity#com.example.shopeeclone.ui.rewards.RewardsActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:31:9-89
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:31:62-86
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:31:19-61
+activity#com.example.shopeeclone.ui.info.InfoActivity
+ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:32:9-83
+	android:exported
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:32:56-80
+	android:name
+		ADDED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:32:19-55
+uses-sdk
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.4.0] /Users/mone/.gradle/caches/9.3.0/transforms/0aeb99bec67fb82a4af2dabd141fa8e3/transformed/viewbinding-8.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.4.0] /Users/mone/.gradle/caches/9.3.0/transforms/0aeb99bec67fb82a4af2dabd141fa8e3/transformed/viewbinding-8.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/mone/.gradle/caches/9.3.0/transforms/98f5de3d31010ec64bf89bb5ed54204d/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /Users/mone/.gradle/caches/9.3.0/transforms/98f5de3d31010ec64bf89bb5ed54204d/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mone/.gradle/caches/9.3.0/transforms/33e0a51e0829b4f27d15d6d8b706fb01/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/mone/.gradle/caches/9.3.0/transforms/33e0a51e0829b4f27d15d6d8b706fb01/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/mone/.gradle/caches/9.3.0/transforms/37ae0b4ef93e179fd0b23c38656d9a71/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/mone/.gradle/caches/9.3.0/transforms/37ae0b4ef93e179fd0b23c38656d9a71/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/mone/.gradle/caches/9.3.0/transforms/59fb2d26a0358529297f6ec8f99667b2/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /Users/mone/.gradle/caches/9.3.0/transforms/59fb2d26a0358529297f6ec8f99667b2/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/mone/.gradle/caches/9.3.0/transforms/51f40ccfbf63c5ea442a537b4af597ca/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.2] /Users/mone/.gradle/caches/9.3.0/transforms/51f40ccfbf63c5ea442a537b4af597ca/transformed/recyclerview-1.3.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/mone/.gradle/caches/9.3.0/transforms/ffecf509abd766ce1b4cdac72f31ca64/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.1.0-beta02] /Users/mone/.gradle/caches/9.3.0/transforms/ffecf509abd766ce1b4cdac72f31ca64/transformed/viewpager2-1.1.0-beta02/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/968fcb780a5c61607da0ec4450ef0a4c/transformed/fragment-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/968fcb780a5c61607da0ec4450ef0a4c/transformed/fragment-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/5b14bcaf799dc18bfb94a0ceb95791ce/transformed/fragment-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/5b14bcaf799dc18bfb94a0ceb95791ce/transformed/fragment-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/33ab8f6d55194ba127f6f6d0193a9b59/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/33ab8f6d55194ba127f6f6d0193a9b59/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/214847bb0d41e17402eb7900ffcaa0e8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/214847bb0d41e17402eb7900ffcaa0e8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/c283efe3283e68bad5fadb45697c1db0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/c283efe3283e68bad5fadb45697c1db0/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /Users/mone/.gradle/caches/9.3.0/transforms/20945f8027ee753f0152bc8d4f89c33a/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /Users/mone/.gradle/caches/9.3.0/transforms/20945f8027ee753f0152bc8d4f89c33a/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/352ea827c93ebf6f126a8430f56d0611/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/352ea827c93ebf6f126a8430f56d0611/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/ce66dcddc9b44cc86a506cb602e8c1fe/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/ce66dcddc9b44cc86a506cb602e8c1fe/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/986c6262c23fa1a52e8be7f8136e67b9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/986c6262c23fa1a52e8be7f8136e67b9/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/a2d70cef24b9fd5897e27bd67b1e84c6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/a2d70cef24b9fd5897e27bd67b1e84c6/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/a211d6866603776cc2937aaa6b9aeaec/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/mone/.gradle/caches/9.3.0/transforms/a211d6866603776cc2937aaa6b9aeaec/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/e6d28a9408ea4930f25df06f7b431d3b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/e6d28a9408ea4930f25df06f7b431d3b/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/4ed94de5f817144e7acdb1053247a725/transformed/activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/4ed94de5f817144e7acdb1053247a725/transformed/activity-ktx-1.8.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/5146d29239101e46a362aa5e2c2e880f/transformed/activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.1] /Users/mone/.gradle/caches/9.3.0/transforms/5146d29239101e46a362aa5e2c2e880f/transformed/activity-1.8.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/59e8ff0b393c22e498c75cb4dfff8745/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/59e8ff0b393c22e498c75cb4dfff8745/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/bbf695248925c7072203d9dc7dc67d47/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/bbf695248925c7072203d9dc7dc67d47/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/mone/.gradle/caches/9.3.0/transforms/33db32532ce6169e39467cb39436020a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/mone/.gradle/caches/9.3.0/transforms/33db32532ce6169e39467cb39436020a/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mone/.gradle/caches/9.3.0/transforms/79be30eb7761f8246bbe1369803bd00a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/mone/.gradle/caches/9.3.0/transforms/79be30eb7761f8246bbe1369803bd00a/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/22707c50f2a944aa38f6de74f2997af7/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/22707c50f2a944aa38f6de74f2997af7/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/dbbeacf2dfb89d8c7b3af9a4546ff38b/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/dbbeacf2dfb89d8c7b3af9a4546ff38b/transformed/lifecycle-livedata-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/7e93ae7776203857985b33b82d31f82a/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/7e93ae7776203857985b33b82d31f82a/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/569e1f9913a761b82af9a2f52fdb9e53/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/569e1f9913a761b82af9a2f52fdb9e53/transformed/lifecycle-viewmodel-2.8.3/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/0eafe9f90d4fc9cec858fe7dced5669a/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/0eafe9f90d4fc9cec858fe7dced5669a/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/473791e53059f1835ba1d12ca8a70501/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/473791e53059f1835ba1d12ca8a70501/transformed/lifecycle-livedata-core-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/990bc47d5e6f0f9ee65c70613c75fc76/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/990bc47d5e6f0f9ee65c70613c75fc76/transformed/lifecycle-livedata-core-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/3ae1352dc1e62fe7f448be270fc21229/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/3ae1352dc1e62fe7f448be270fc21229/transformed/lifecycle-viewmodel-ktx-2.8.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a7ebcb64528aa72e61b4f3bbc37ea507/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a7ebcb64528aa72e61b4f3bbc37ea507/transformed/lifecycle-viewmodel-savedstate-2.8.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/94606e6120ae305a2c04e922e40ebdc1/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/94606e6120ae305a2c04e922e40ebdc1/transformed/core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mone/.gradle/caches/9.3.0/transforms/b86df498249e795e37d3a8bfa8cc8e26/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/mone/.gradle/caches/9.3.0/transforms/b86df498249e795e37d3a8bfa8cc8e26/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/0caab161243c89917714ee43293d85dc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/0caab161243c89917714ee43293d85dc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/7cb86d67741352beca47c501c0ae60ca/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/7cb86d67741352beca47c501c0ae60ca/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/8d40475492ec889cb239530398437242/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/8d40475492ec889cb239530398437242/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/cc9242d52bb40c4f3945b3f5ef1f95bc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/cc9242d52bb40c4f3945b3f5ef1f95bc/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/fe9f78e4c07970d997fb56a021514736/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/fe9f78e4c07970d997fb56a021514736/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/53604d2ff8345a0a682d79d8cbb37003/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/53604d2ff8345a0a682d79d8cbb37003/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/5e11eca71e3024255df6741b4d1d04bd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/5e11eca71e3024255df6741b4d1d04bd/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/00886a589a657fbedc641231709910b4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mone/.gradle/caches/9.3.0/transforms/00886a589a657fbedc641231709910b4/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mone/.gradle/caches/9.3.0/transforms/cbae96ff2337b55e57cf73b58bdb2b5e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/mone/.gradle/caches/9.3.0/transforms/cbae96ff2337b55e57cf73b58bdb2b5e/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/mone/.gradle/caches/9.3.0/transforms/7223c2c192f61def4f39b8b029c65042/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.shopeeclone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.shopeeclone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shopee_orange">#EE4D2D</color>
+    <color name="shopee_orange_dark">#D23F1D</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="gray_bg">#F5F5F5</color>
+    <color name="gray_text">#757575</color>
+    <color name="price_red">#EE4D2D</color>
+</resources>

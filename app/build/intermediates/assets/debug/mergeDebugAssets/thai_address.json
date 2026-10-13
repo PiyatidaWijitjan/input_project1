@@ -1,0 +1,98 @@
+[
+  {
+    "province": "ขอนแก่น",
+    "districts": [
+      {
+        "name": "เมืองขอนแก่น",
+        "subdistricts": [
+          { "name": "ในเมือง", "zipcode": "40000" },
+          { "name": "ศิลา", "zipcode": "40000" },
+          { "name": "บ้านทุ่ม", "zipcode": "40000" },
+          { "name": "ท่าพระ", "zipcode": "40260" }
+        ]
+      },
+      {
+        "name": "น้ำพอง",
+        "subdistricts": [
+          { "name": "น้ำพอง", "zipcode": "40140" },
+          { "name": "วังชัย", "zipcode": "40140" },
+          { "name": "กุดน้ำใส", "zipcode": "40140" }
+        ]
+      },
+      {
+        "name": "ชุมแพ",
+        "subdistricts": [
+          { "name": "ชุมแพ", "zipcode": "40130" },
+          { "name": "โนนหัน", "zipcode": "40130" }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "กรุงเทพมหานคร",
+    "districts": [
+      {
+        "name": "บางรัก",
+        "subdistricts": [
+          { "name": "สีลม", "zipcode": "10500" },
+          { "name": "สุริยวงศ์", "zipcode": "10500" },
+          { "name": "บางรัก", "zipcode": "10500" }
+        ]
+      },
+      {
+        "name": "ปทุมวัน",
+        "subdistricts": [
+          { "name": "ลุมพินี", "zipcode": "10330" },
+          { "name": "รองเมือง", "zipcode": "10330" },
+          { "name": "วังใหม่", "zipcode": "10330" }
+        ]
+      },
+      {
+        "name": "จตุจักร",
+        "subdistricts": [
+          { "name": "จตุจักร", "zipcode": "10900" },
+          { "name": "ลาดยาว", "zipcode": "10900" }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "เชียงใหม่",
+    "districts": [
+      {
+        "name": "เมืองเชียงใหม่",
+        "subdistricts": [
+          { "name": "ศรีภูมิ", "zipcode": "50200" },
+          { "name": "ช้างคลาน", "zipcode": "50100" },
+          { "name": "หายยา", "zipcode": "50100" }
+        ]
+      },
+      {
+        "name": "สันทราย",
+        "subdistricts": [
+          { "name": "สันทรายหลวง", "zipcode": "50210" },
+          { "name": "หนองจ๊อม", "zipcode": "50210" }
+        ]
+      }
+    ]
+  },
+  {
+    "province": "ชลบุรี",
+    "districts": [
+      {
+        "name": "เมืองชลบุรี",
+        "subdistricts": [
+          { "name": "บางปลาสร้อย", "zipcode": "20000" },
+          { "name": "มะขามหย่ง", "zipcode": "20000" }
+        ]
+      },
+      {
+        "name": "บางละมุง",
+        "subdistricts": [
+          { "name": "หนองปรือ", "zipcode": "20150" },
+          { "name": "นาเกลือ", "zipcode": "20150" }
+        ]
+      }
+    ]
+  }
+]

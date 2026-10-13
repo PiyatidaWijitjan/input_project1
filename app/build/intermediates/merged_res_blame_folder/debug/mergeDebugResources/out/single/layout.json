@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_info.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_info.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/fragment_settings.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/fragment_settings.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_rewards.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_rewards.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_login.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/item_order.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_order.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/fragment_profile.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_product_detail.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_product_detail.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_address_book.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_address_book.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_checkout.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_checkout.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_forgot_password.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_main.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_order_history.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_order_history.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/fragment_home.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_address_form.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_address_form.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/item_saved_address.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_saved_address.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/item_profile_menu_row.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_profile_menu_row.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_edit_profile.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/item_settings_switch_row.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_settings_switch_row.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_change_password.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_rewards.xml",
+        "source": "com.example.shopeeclone.app-main-40:/layout/activity_rewards.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_wishlist.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_wishlist.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/item_product.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/item_product.xml"
+    },
+    {
+        "merged": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-mergeDebugResources-37:/layout/activity_register.xml",
+        "source": "/Users/mone/.gradle/daemon/9.3.0/com.example.shopeeclone.app-main-40:/layout/activity_register.xml"
+    }
+]

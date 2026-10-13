@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shopee Clone</string>
+    <string name="nav_home">หน้าหลัก</string>
+    <string name="nav_profile">โปรไฟล์</string>
+    <string name="nav_settings">ตั้งค่า</string>
+    <string name="buy_now">ซื้อสินค้า</string>
+    <string name="place_order">สั่งซื้อสินค้า</string>
+    <string name="shipping_address">ที่อยู่จัดส่ง</string>
+    <string name="select_province">จังหวัด</string>
+    <string name="select_district">อำเภอ / เขต</string>
+    <string name="select_subdistrict">ตำบล / แขวง</string>
+    <string name="zipcode">รหัสไปรษณีย์</string>
+</resources>

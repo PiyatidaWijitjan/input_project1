@@ -1,0 +1,200 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shopeeclone"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.shopeeclone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.shopeeclone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:4:5-34:19
+18        android:allowBackup="true"
+18-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.1] /Users/mone/.gradle/caches/9.3.0/transforms/de94a4b6ce243921614888240652f726/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@android:drawable/sym_def_app_icon"
+22-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:7:9-58
+23        android:label="Shopee Clone"
+23-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:8:9-37
+24        android:testOnly="true"
+25        android:theme="@style/Theme.ShopeeClone" >
+25-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:9:9-49
+26        <activity
+26-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:11:9-18:20
+27            android:name="com.example.shopeeclone.ui.auth.LoginActivity"
+27-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:12:13-50
+28            android:exported="true" >
+28-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:13:13-36
+29            <intent-filter>
+29-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:14:13-17:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:15:17-69
+30-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:15:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:16:17-77
+32-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:16:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:20:9-87
+36            android:name="com.example.shopeeclone.ui.auth.RegisterActivity"
+36-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:20:19-59
+37            android:exported="false" />
+37-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:20:60-84
+38        <activity
+38-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:21:9-93
+39            android:name="com.example.shopeeclone.ui.auth.ForgotPasswordActivity"
+39-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:21:19-65
+40            android:exported="false" />
+40-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:21:66-90
+41        <activity
+41-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:22:9-75
+42            android:name="com.example.shopeeclone.MainActivity"
+42-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:22:19-47
+43            android:exported="false" />
+43-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:22:48-72
+44        <activity
+44-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:23:9-94
+45            android:name="com.example.shopeeclone.ui.detail.ProductDetailActivity"
+45-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:23:19-66
+46            android:exported="false" />
+46-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:23:67-91
+47        <activity
+47-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:24:9-91
+48            android:name="com.example.shopeeclone.ui.checkout.CheckoutActivity"
+48-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:24:19-63
+49            android:exported="false" />
+49-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:24:64-88
+50        <activity
+50-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:25:9-93
+51            android:name="com.example.shopeeclone.ui.orders.OrderHistoryActivity"
+51-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:25:19-65
+52            android:exported="false" />
+52-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:25:66-90
+53        <activity
+53-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:26:9-93
+54            android:name="com.example.shopeeclone.ui.profile.EditProfileActivity"
+54-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:26:19-65
+55            android:exported="false" />
+55-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:26:66-90
+56        <activity
+56-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:27:9-97
+57            android:name="com.example.shopeeclone.ui.settings.ChangePasswordActivity"
+57-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:27:19-69
+58            android:exported="false" />
+58-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:27:70-94
+59        <activity
+59-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:28:9-91
+60            android:name="com.example.shopeeclone.ui.wishlist.WishlistActivity"
+60-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:28:19-63
+61            android:exported="false" />
+61-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:28:64-88
+62        <activity
+62-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:29:9-93
+63            android:name="com.example.shopeeclone.ui.address.AddressBookActivity"
+63-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:29:19-65
+64            android:exported="false" />
+64-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:29:66-90
+65        <activity
+65-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:30:9-93
+66            android:name="com.example.shopeeclone.ui.address.AddressFormActivity"
+66-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:30:19-65
+67            android:exported="false" />
+67-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:30:66-90
+68        <activity
+68-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:31:9-89
+69            android:name="com.example.shopeeclone.ui.rewards.RewardsActivity"
+69-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:31:19-61
+70            android:exported="false" />
+70-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:31:62-86
+71        <activity
+71-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:32:9-83
+72            android:name="com.example.shopeeclone.ui.info.InfoActivity"
+72-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:32:19-55
+73            android:exported="false" />
+73-->/Users/mone/Downloads/ShopeeCloneApp/app/src/main/AndroidManifest.xml:32:56-80
+74
+75        <provider
+75-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+76            android:name="androidx.startup.InitializationProvider"
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+77            android:authorities="com.example.shopeeclone.androidx-startup"
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+78            android:exported="false" >
+78-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+79            <meta-data
+79-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+80                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+80-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+81                android:value="androidx.startup" />
+81-->[androidx.emoji2:emoji2:1.3.0] /Users/mone/.gradle/caches/9.3.0/transforms/c3b0e6ff8db623ab2df04ece96809dc9/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+82            <meta-data
+82-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:29:13-31:52
+83                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+83-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:30:17-78
+84                android:value="androidx.startup" />
+84-->[androidx.lifecycle:lifecycle-process:2.8.3] /Users/mone/.gradle/caches/9.3.0/transforms/a6db99e9efd4d0ea7c10be58a5d6ded3/transformed/lifecycle-process-2.8.3/AndroidManifest.xml:31:17-49
+85            <meta-data
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+86                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+87                android:value="androidx.startup" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+88        </provider>
+89
+90        <receiver
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+91            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+92            android:directBootAware="false"
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+93            android:enabled="true"
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+94            android:exported="true"
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+95            android:permission="android.permission.DUMP" >
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+97                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+100                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+100-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+103                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+104            </intent-filter>
+105            <intent-filter>
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+106                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/mone/.gradle/caches/9.3.0/transforms/fe8add07a2dc9dea30dffce1c7f6cffb/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+107            </intent-filter>
+108        </receiver>
+109    </application>
+110
+111</manifest>

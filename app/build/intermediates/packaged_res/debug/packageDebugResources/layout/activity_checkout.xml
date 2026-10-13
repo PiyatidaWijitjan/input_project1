@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/shopee_orange"
+        android:title="ชำระเงิน"
+        android:titleTextColor="@color/white"
+        app:navigationIcon="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- ============ ที่อยู่จัดส่ง (Cascading Dropdown) ============ -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/shipping_address"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/tvPickAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="เลือกจากสมุดที่อยู่ ›"
+                            android:textColor="@color/shopee_orange"
+                            android:textSize="13sp"
+                            android:clickable="true"
+                            android:focusable="true" />
+                    </LinearLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilRecipientName"
+                        style="@style/AppInput"
+                        android:hint="ชื่อผู้รับ">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etRecipientName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPersonName"
+                            android:maxLength="50" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilRecipientPhone"
+                        style="@style/AppInput"
+                        android:hint="เบอร์โทรศัพท์ผู้รับ (10 หลัก)">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etRecipientPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:digits="0123456789" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilStreet"
+                        style="@style/AppInput"
+                        android:hint="บ้านเลขที่ / หมู่บ้าน / ถนน">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etFullAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textPostalAddress"
+                            android:maxLength="120" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- 1) จังหวัด -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilProvince"
+                        style="@style/AppInputDropdown"
+                        android:hint="@string/select_province">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/actProvince"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:focusable="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- 2) อำเภอ/เขต : ขึ้นอยู่กับจังหวัด -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilDistrict"
+                        style="@style/AppInputDropdown"
+                        android:enabled="false"
+                        android:hint="@string/select_district">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/actDistrict"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:focusable="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- 3) ตำบล/แขวง : ขึ้นอยู่กับอำเภอ -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilSubDistrict"
+                        style="@style/AppInputDropdown"
+                        android:enabled="false"
+                        android:hint="@string/select_subdistrict">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/actSubDistrict"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:focusable="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <!-- 4) รหัสไปรษณีย์ : เติมอัตโนมัติ -->
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilZipcode"
+                        style="@style/AppInput"
+                        android:hint="@string/zipcode">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etZipcode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:focusable="false"
+                            android:cursorVisible="false"
+                            android:inputType="none" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <CheckBox
+                        android:id="@+id/cbSaveAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="บันทึกที่อยู่นี้ไว้ในสมุดที่อยู่"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:buttonTint="@color/shopee_orange" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- ============ ตัวเลือกการจัดส่ง ============ -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ตัวเลือกการจัดส่ง"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <RadioGroup
+                        android:id="@+id/rgShipping"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
+
+                        <RadioButton
+                            android:id="@+id/rbShippingStandard"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="จัดส่งมาตรฐาน (ฟรี) - 3-5 วัน" />
+
+                        <RadioButton
+                            android:id="@+id/rbShippingExpress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="จัดส่งด่วน (฿50) - 1-2 วัน" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- ============ ช่องทางการชำระเงิน ============ -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ช่องทางการชำระเงิน"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <RadioGroup
+                        android:id="@+id/rgPayment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp">
+
+                        <RadioButton
+                            android:id="@+id/rbCod"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="เก็บเงินปลายทาง (COD)" />
+
+                        <RadioButton
+                            android:id="@+id/rbBankTransfer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="โอนผ่านธนาคาร" />
+
+                        <RadioButton
+                            android:id="@+id/rbCreditCard"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="บัตรเครดิต/เดบิต" />
+
+                        <RadioButton
+                            android:id="@+id/rbEWallet"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="พร้อมเพย์ / e-Wallet" />
+                    </RadioGroup>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- ============ ส่วนลด: คูปอง + เหรียญ ============ -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ส่วนลด"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/tilVoucher"
+                        style="@style/AppInputDropdown"
+                        android:hint="คูปองส่วนลด">
+
+                        <AutoCompleteTextView
+                            android:id="@+id/actVoucher"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="none"
+                            android:focusable="false" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.switchmaterial.SwitchMaterial
+                        android:id="@+id/switchCoins"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        app:thumbTint="@color/white"
+                        app:trackTint="@color/shopee_orange" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- ============ สรุปยอดสั่งซื้อ ============ -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/tvOrderSummary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="4dp"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        tools:text="ชื่อสินค้า x1   ฿199" />
+
+                    <TextView
+                        android:id="@+id/tvOrderTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="end"
+                        android:textColor="@color/price_red"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        tools:text="ยอดรวมสุทธิ: ฿199" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:text="@string/place_order"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/shopee_orange" />
+</LinearLayout>

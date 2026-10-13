@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/shopee_orange"
+            android:title="@string/nav_settings"
+            android:titleTextColor="@color/white" />
+
+        <!-- ==================== บัญชี ==================== -->
+        <TextView
+            style="@style/SettingsSectionHeader"
+            android:text="บัญชี" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/rowEditProfile"
+                    layout="@layout/item_profile_menu_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowChangePassword"
+                    layout="@layout/item_profile_menu_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowShippingAddress"
+                    layout="@layout/item_profile_menu_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowPaymentMethods"
+                    layout="@layout/item_profile_menu_row" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ==================== การแจ้งเตือน ==================== -->
+        <TextView
+            style="@style/SettingsSectionHeader"
+            android:text="การแจ้งเตือน" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/rowNotifyPromo"
+                    layout="@layout/item_settings_switch_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowNotifyOrder"
+                    layout="@layout/item_settings_switch_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowNotifyChat"
+                    layout="@layout/item_settings_switch_row" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ==================== ทั่วไป ==================== -->
+        <TextView
+            style="@style/SettingsSectionHeader"
+            android:text="ทั่วไป" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/rowLanguage"
+                    layout="@layout/item_profile_menu_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowDarkMode"
+                    layout="@layout/item_settings_switch_row" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- ==================== ช่วยเหลือและเกี่ยวกับแอป ==================== -->
+        <TextView
+            style="@style/SettingsSectionHeader"
+            android:text="ช่วยเหลือและเกี่ยวกับแอป" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/rowHelpCenter"
+                    layout="@layout/item_profile_menu_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowPrivacyPolicy"
+                    layout="@layout/item_profile_menu_row" />
+
+                <View style="@style/DividerThin" />
+
+                <include
+                    android:id="@+id/rowTermsOfUse"
+                    layout="@layout/item_profile_menu_row" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvAppVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="เวอร์ชันแอป 1.0.0"
+            android:textColor="@color/gray_text"
+            android:textSize="12sp" />
+
+        <!-- ==================== ออกจากระบบ ==================== -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="20dp"
+            android:text="ออกจากระบบ"
+            android:textColor="@color/shopee_orange"
+            app:strokeColor="@color/shopee_orange"
+            app:cornerRadius="6dp" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
